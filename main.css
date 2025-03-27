@@ -1,19 +1,35 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
+body {
+    background-color: black;
+    color: green;
+    font-family: "Courier New", monospace;
+    text-align: center;
+    padding-top: 50px;
+}
 
-p, h1, h2, h3, h4, h5, h6 {
-  font-family: "Geist Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400; /* Default weight for all */
-  font-style: normal;
+.container {
+    max-width: 400px;
+    margin: auto;
 }
 
 h1 {
-  font-weight: 700; /* Bold */
+    font-size: 24px;
 }
 
-h2 {
-  font-weight: 600; /* Semi-bold */
+.button {
+    display: block;
+    background-color: black;
+    color: green;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px auto;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
 }
 
+.button:hover {
+    background-color: green;
+    color: black;
+}
