@@ -1,6 +1,6 @@
 /* General Body Styling */
 body {
-    background: url('https://github.com/Chrissals/autoboy/blob/main/autoboy-background.jpg/') no-repeat center center fixed;
+    background: url('https://raw.githubusercontent.com/Chrissals/autoboy/refs/heads/main/autoboy-background.jpg') no-repeat center center fixed;
     background-size: cover; /* Ensures the image fills the entire screen */
     color: GhostWhite;
     font-family: "Courier New", monospace;
