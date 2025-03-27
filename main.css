@@ -52,3 +52,16 @@ h1 {
     background-color: GhostWhite;
     color: black;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .button {
+        width: 100%; /* Makes buttons take full width on mobile */
+        margin: 10px 0; /* Adjusts margin for better spacing */
+    }
+
+    h1 {
+        font-size: 24px; /* Adjust header size for smaller screens */
+        margin-bottom: 15px; /* Adjust margin for header */
+    }
+}
