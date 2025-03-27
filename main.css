@@ -1,67 +1,45 @@
 /* General Body Styling */
 body {
     background: url('https://raw.githubusercontent.com/Chrissals/autoboy/main/autoboy-background.jpg') no-repeat center center fixed;
-    background-size: cover; /* Ensures the image fills the entire screen */
-    color: GhostWhite;
-    font-family: "Courier New", monospace;
-    text-align: center;
-    margin: 0;
+    color: ghostwhite; /* Text color */
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font for terminal look */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
+    flex-direction: column;
 }
 
-/* Container Styling */
-.container {
-    max-width: 400px;
-    width: 90%; /* Responsive on smaller screens */
-    backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.6); /* Transparent background for readability */
-    padding: 20px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center;
-    align-items: center;
-}
-
-/* Header Styling */
 h1 {
-    font-size: 32px;
-    margin-bottom: 20px; /* Adds space between header and buttons */
-}
-
-/* Button Styling */
-.button {
-    background-color: black;
-    color: GhostWhite;
-    border: 2px solid GhostWhite;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
     text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
     text-decoration: none;
-    font-size: 18px;
-    transition: 0.3s;
+    color: ghostwhite;
+    background-color: #333;
+    border: 2px solid #666;
     border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Hover Effect */
 .button:hover {
-    background-color: GhostWhite;
-    color: black;
+    background-color: #555;
+    transform: scale(1.05);
 }
 
-/* Mobile Responsiveness */
-@media (max-width: 600px) {
-    .button {
-        width: 100%; /* Makes buttons take full width on mobile */
-        margin: 10px 0; /* Adjusts margin for better spacing */
-    }
-
-    h1 {
-        font-size: 24px; /* Adjust header size for smaller screens */
-        margin-bottom: 15px; /* Adjust margin for header */
-    }
+.button:active {
+    background-color: #777;
 }
