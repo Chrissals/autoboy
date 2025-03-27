@@ -2,7 +2,7 @@
 body {
     background: url('https://github.com/Chrissals/autoboy/blob/main/autoboy-background.jpg/') no-repeat center center fixed;
     background-size: cover; /* Ensures the image fills the entire screen */
-    color: green;
+    color: GhostWhite;
     font-family: "Courier New", monospace;
     text-align: center;
     padding-top: 50px;
@@ -28,8 +28,8 @@ h1 {
 .button {
     display: block;
     background-color: black;
-    color: green;
-    border: 2px solid green;
+    color: GhostWhite;
+    border: 2px solid GhostWhite;
     padding: 10px;
     margin: 10px auto;
     width: 200px;
@@ -42,6 +42,6 @@ h1 {
 
 /* Hover Effect */
 .button:hover {
-    background-color: green;
+    background-color: GhostWhite;
     color: black;
 }
