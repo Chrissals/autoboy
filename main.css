@@ -16,7 +16,7 @@ body {
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
-  background-size: 150%; /* Adjust background size for smaller screens */
+  background-size: 220%; /* Adjust background size for smaller screens */
 }
 
 h1 {
