@@ -47,10 +47,13 @@ h1 {
 }
 
 .footer {
-            margin-top: auto;
-            padding: 10px;
-            font-size: 0.9em;
-            text-align: center;
-            width: 100%;
-            max-width: 600px;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    font-size: 0.9em;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
         }
