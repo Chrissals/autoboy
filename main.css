@@ -20,21 +20,25 @@ body {
     background-color: rgba(0, 0, 0, 0.6); /* Transparent background for readability */
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
 }
 
 /* Header Styling */
 h1 {
-    font-size: 24px;
+    font-size: 32px;
+    margin-bottom: 20px; /* Adds space between header and buttons */
 }
 
 /* Button Styling */
 .button {
-    display: block;
     background-color: black;
     color: GhostWhite;
     border: 2px solid GhostWhite;
     padding: 10px;
-    margin: 10px auto;
+    margin: 10px;
     width: 200px;
     text-align: center;
     text-decoration: none;
