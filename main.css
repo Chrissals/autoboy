@@ -1,18 +1,21 @@
 /* General Body Styling */
 body {
-    background: url('https://raw.githubusercontent.com/Chrissals/autoboy/refs/heads/main/autoboy-background.jpg') no-repeat center center fixed;
+    background: url('https://raw.githubusercontent.com/Chrissals/autoboy/main/autoboy-background.jpg') no-repeat center center fixed;
     background-size: cover; /* Ensures the image fills the entire screen */
     color: GhostWhite;
     font-family: "Courier New", monospace;
     text-align: center;
-    padding-top: 50px;
     margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Container Styling */
 .container {
     max-width: 400px;
-    margin: auto;
+    width: 90%; /* Responsive on smaller screens */
     backdrop-filter: blur(5px);
     background-color: rgba(0, 0, 0, 0.6); /* Transparent background for readability */
     padding: 20px;
