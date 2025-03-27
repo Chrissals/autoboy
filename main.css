@@ -1,7 +1,7 @@
 /* General Body Styling */
 body {
     background: url('https://raw.githubusercontent.com/Chrissals/autoboy/main/autoboy-background.jpg') no-repeat center center fixed;
-    background-size: 200%;
+    background-size: cover;
     color: ghostwhite; /* Text color */
     font-family: 'Courier New', Courier, monospace; /* Monospaced font for terminal look */
     display: flex;
@@ -12,11 +12,6 @@ body {
     flex-direction: column;
 
     
-}
-
-/* Media query for mobile devices */
-@media (max-width: 768px) {
-  background-size: 220%; /* Adjust background size for smaller screens */
 }
 
 h1 {
